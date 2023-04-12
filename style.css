@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(226, 223, 223);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.titulo{
+    width: 100%;
+    padding: 2rem 0 0 2rem;
+}
+
+.areaTextos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+}
+
+.areaTextos input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.6rem;
+    border: none;
+}
+
+.areaTextos textarea{
+    width: 100%;
+    border-radius: 0.6rem;
+    border: solid gray 0.2rem;
+    box-shadow: 0.3rem 0rem 0.2rem 0.2rem gray;
+}
+
+.botonesMensaje{
+    width: 100%;
+    padding: 2rem 0 0 2rem;
+}
+
+.botonesMensaje .botones{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn1{
+    width: 10rem;
+    height: 2rem;
+    background-color: slateblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    margin-right: 5rem;
+}
+
+.btn1:hover{
+    background-color: rgb(167, 162, 201);
+}
+
+.btn2{
+    width: 10rem;
+    height: 2rem;
+    background-color: rgb(167, 162, 201);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    margin-right: 5rem;
+}
+
+.btn2:hover{
+    background-color: slateblue;
+}
+
+.btn3{
+    width: 20rem;
+    height: 2rem;
+    background-color: rgb(150, 36, 36);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+}
+
+.btn3:hover{
+    background-color: rgb(204, 134, 134);
+}
+
+.piePagina{
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+    background-color: gray;
+    padding: 3rem 0 3rem 0;
+}
+
+.piePagina p{
+    font-size: 1.4rem;
+}
